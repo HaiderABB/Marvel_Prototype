@@ -1,0 +1,19 @@
+.banner {
+background-image: url(/Marvel_Prototype/assets/chair-bg-img.png);
+background-size: cover;
+background-position: center;
+height: 400px;
+margin-top: -8px;
+margin-left: -6px;
+margin-right: -8px;
+position:relative;
+}
+.header{
+ position: absolute;
+ top: 20px;
+ left: 40px;
+ display: inline-block;
+}
+.menu{
+  display: inline-block;
+}
