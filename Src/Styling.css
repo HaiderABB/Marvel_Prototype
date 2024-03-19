@@ -10,6 +10,8 @@ h5 {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+/*                                                1st Section                            */
+
 .banner {
   background-image: url("/assets/chair-bg-img.png");
   background-size: cover;
@@ -78,6 +80,8 @@ button:hover {
   color: #10c9c3;
 }
 
+/*                                                2nd Section                            */
+
 .about-us {
   position: relative;
   display: flex;
@@ -108,6 +112,8 @@ h2 {
   width: 40%;
 }
 
+/*                                                3rd Section                            */
+
 .container {
   width: auto;
   height: auto;
@@ -137,9 +143,25 @@ h2 {
   height: 0.2vw;
 }
 .right-box {
-  width: 50%; /* Each div takes up 50% of the container width */
+  width: 50%;
 }
 .right-box img {
   width: 100%;
   height: auto;
 }
+
+/*                                                4th Section                            */
+
+.product-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* max-width: 100%; */
+}
+
+.product-row img {
+  max-width: 24.7vw; /* Ensure images don't exceed container width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/*                                                5th Section                            */
