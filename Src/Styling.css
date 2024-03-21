@@ -9,11 +9,8 @@ body {
 }
 
 h5 {
-  font-family: "Montserrat-Medium";
+  font-family: "Montserrat";
   margin-top: 5%;
-}
-
-h1 {
 }
 
 /*                                                1st Section                                */
@@ -69,7 +66,6 @@ h1 {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 14.2px;
   color: #787878;
-  width: fit-content;
 }
 
 button {
@@ -127,6 +123,7 @@ p {
   width: auto;
   height: auto;
   display: flex;
+  font-family: "Montserrat";
 }
 
 .left-box {
@@ -135,10 +132,28 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: #f8f9f9;
 }
 
-.skills-percentage {
-  width: 85%;
+.heading-box {
+  display: flex;
+  flex-direction: column;
+  width: 72%;
+  gap: 1.5rem;
+}
+
+.skills-heading {
+  align-self: flex-start;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.skills {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-weight: 600;
 }
 
 .percentage-bar {
@@ -174,3 +189,35 @@ p {
 }
 
 /*                                                5th Section                            */
+.quote-section {
+  background-color: #10c9c3;
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+  gap: 1.5rem;
+  height: 72vh;
+}
+
+.quote-section img {
+  margin-top: 5%;
+  width: 8.5%;
+  align-self: center;
+  border: 2px solid #e8e8e8;
+  border-radius: 50px;
+}
+.quote {
+  font-size: 19px;
+  color: #ffffff;
+  width: 56vw;
+  font-weight: 550;
+  letter-spacing: 0.3px;
+  align-self: center;
+  line-height: 1.5;
+}
+.author {
+  color: #ffffff;
+  font-size: 9px;
+  font-family: "Montserrat";
+  font-weight: 500;
+  letter-spacing: 1.2px;
+}
